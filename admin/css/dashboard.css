@@ -1,0 +1,26 @@
+
+    .widget-content-dashboard {
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+    .widget-content-dashboard-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .widget-heading-dashboard {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .widget-subheading-dashboard {
+        font-size: 1rem;
+    }
+    .widget-numbers-dashboard {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    @media (max-width: 767px) {
+        .widget-content-dashboard {
+            margin-bottom: 1rem;
+        }
+    }
